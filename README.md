@@ -22,7 +22,7 @@ This project is a responsive music player web application dedicated to some of t
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/90s-hits-music-player.git
+   git clone https://github.com/manoj-mj2001/90s-Music-Player.git
    ```
 2. **Open the project**:
    Open `index.html` in your browser to see the music player in action.
