@@ -1,14 +1,14 @@
 const songs = [
   {
     title: "Laal Dupatta",
-    artist: "Udit Narayan",
-    cover: "./images/UditNarayan.jpg",
+    artist: "Udit Narayan & Alka Yagnik",
+    cover: "./images/uditalka.jpg",
     src: "./songs/udit narayan/Laal Dupatta.mp3",
   },
   {
     title: "Is Tarah Aashiqui Ka",
     artist: "Kumar Sanu",
-    cover: "./images/SanuDa.jpeg",
+    cover: "./images/kumarsanu.jpg",
     src: "./songs/kumar sanu/Is Tarah Aashiqui Ka.mp3",
   },
   {
@@ -19,14 +19,14 @@ const songs = [
   },
   {
     title: "Rab Kare",
-    artist: "Udit Narayan",
-    cover: "./images/UditNarayan.jpg",
+    artist: "Udit Narayan & Alka Yagnik",
+    cover: "./images/uditalka.jpg",
     src: "./songs/udit narayan/Rab Kare.mp3",
   },
   {
     title: "Ladki Badi Anjani Hain",
-    artist: "Kumar Sanu",
-    cover: "./images/KumarSanu.jpeg",
+    artist: "Kumar Sanu & Alka Yagnik",
+    cover: "./images/kumaralka.jpg",
     src: "./songs/kumar sanu/Ladki Badi Anjani Hain.mp3",
   },
   {
@@ -38,13 +38,13 @@ const songs = [
   {
     title: "Falak Dekhun",
     artist: "Udit Narayan",
-    cover: "./images/UditNarayan.jpg",
+    cover: "./images/uditsir.jpg",
     src: "./songs/udit narayan/Falak Dekhun.mp3",
   },
   {
     title: "Main Duniya Bhula Dunga",
     artist: "Kumar Sanu",
-    cover: "./images/KumarSanu.jpeg",
+    cover: "./images/SanuDa.jpeg",
     src: "./songs/kumar sanu/Main Duniya Bhula Doonga.mp3",
   },
   {
@@ -62,19 +62,26 @@ const songs = [
   {
     title: "Ek Sanam Chahiye",
     artist: "Kumar Sanu",
-    cover: "./images/KumarSanu.jpeg",
+    cover: "./images/kumarsanu.jpg",
     src: "./songs/kumar sanu/Ek Sanam Chahiye.mp3",
   },
   {
+    title: "Teri Chunnariya",
+    artist: "Alka Yagnik & Kumar Sanu",
+    cover: "./images/alkakumar.webp",
+    src: "./songs/alka yagnik/Teri Chunnariya.mp3",
+  },
+
+  {
     title: "Tere Naam",
     artist: "Udit Narayan",
-    cover: "./images/UditNarayan.jpg",
+    cover: "./images/uditsir.jpg",
     src: "./songs/udit narayan/Tere Naam.mp3",
   },
   {
     title: "Tu Meri Zindagi Hain",
     artist: "Kumar Sanu",
-    cover: "./images/KumarSanu.jpeg",
+    cover: "./images/SanuDa.jpeg",
     src: "./songs/kumar sanu/Tu Meri Zindagi Hain.mp3",
   },
   {
@@ -86,19 +93,25 @@ const songs = [
   {
     title: "Tu Pyaar Hain Kisi Aur Ka",
     artist: "Kumar Sanu",
-    cover: "./images/KumarSanu.jpeg",
+    cover: "./images/kumarsanu.jpg",
     src: "./songs/kumar sanu/Tu Pyaar Hai Kisi Aur Ka.mp3",
+  },
+  {
+    title: "Tumse Milna Baatein Karna",
+    artist: "Udit Narayan & Alka Yagnik",
+    cover: "./images/uditalka.jpg",
+    src: "./songs/alka yagnik/Tumse Milna Baatein Karna.mp3",
   },
   {
     title: "Kyon Kisi Ko",
     artist: "Udit Narayan",
-    cover: "./images/UditNarayan.jpg",
+    cover: "./images/uditsir.jpg",
     src: "./songs/udit narayan/Kyon Kisi Ko.mp3",
   },
   {
     title: "Chand Se Parda",
     artist: "Kumar Sanu",
-    cover: "./images/KumarSanu.jpeg",
+    cover: "./images/SanuDa.jpeg",
     src: "./songs/kumar sanu/Chand Se Parda.mp3",
   },
   {
@@ -110,19 +123,33 @@ const songs = [
   {
     title: "Tere Dar Par Sanam",
     artist: "Kumar Sanu",
-    cover: "./images/KumarSanu.jpeg",
+    cover: "./images/kumarsanu.jpg",
     src: "./songs/kumar sanu/Tere Dar Par Sanam.mp3",
   },
+
+  {
+    title: "Dekhne Walon Ne",
+    artist: "Udit Narayan & Alka Yagnik",
+    cover: "./images/uditalka.jpg",
+    src: "./songs/udit narayan/Dekhne Walon Ne.mp3",
+  },
+  {
+    title: "Sochenge Tumhe Pyaar",
+    artist: "Kumar Sanu",
+    cover: "./images/kumarsanu.jpg",
+    src: "./songs/kumar sanu/Sochenge Tumhe Pyaar.mp3",
+  },
+
   {
     title: "Jaadu Teri Nazar",
     artist: "Udit Narayan",
-    cover: "./images/UditNarayan.jpg",
+    cover: "./images/uditsir.jpg",
     src: "./songs/udit narayan/Jaadu Teri Nazar.mp3",
   },
   {
     title: "Chori Chori Dil Tera Churayenge",
     artist: "Kumar Sanu",
-    cover: "./images/KumarSanu.jpeg",
+    cover: "./images/SanuDa.jpeg",
     src: "./songs/kumar sanu/Chori Chori Dil Tera.mp3",
   },
   {
@@ -134,8 +161,32 @@ const songs = [
   {
     title: "Dil Kehta Hain",
     artist: "Kumar Sanu",
-    cover: "./images/KumarSanu.jpeg",
+    cover: "./images/kumarsanu.jpg",
     src: "./songs/kumar sanu/Dil Kehta Hain.mp3",
+  },
+  {
+    title: "Humein Tumse Hua Hain Pyaar",
+    artist: "Udit Narayan & Alka Yagnik",
+    cover: "./images/uditalka.jpg",
+    src: "./songs/udit narayan/Humein Tumse Hua Hain Pyaar.mp3",
+  },
+  {
+    title: "Dard Karaara",
+    artist: "Kumar Sanu",
+    cover: "./images/SanuDa.jpeg",
+    src: "./songs/kumar sanu/Dard Karaara.mp3",
+  },
+  {
+    title: "Shaam Bhi Khoob Hain",
+    artist: "Udit Narayan, Kumar Sanu & Alka Yagnik",
+    cover: "./images/trio.jpg",
+    src: "./songs/alka yagnik/Shaam Bhi Khoob Hain Paas.mp3",
+  },
+  {
+    title: "Tumhein Apna Bannane Ki",
+    artist: "Kumar Sanu",
+    cover: "./images/kumarsanu.jpg",
+    src: "./songs/kumar sanu/Tumhein Apna Banane Ki Kasam.mp3",
   },
 ];
 
@@ -151,6 +202,7 @@ const artistName = document.getElementById("song_artist");
 const progressBar = document.getElementById("progress-bar");
 const currentTimeEl = document.getElementById("current-time");
 const durationTimeEl = document.getElementById("duration-time");
+
 function loadSong(index) {
   const song = songs[index];
   audioPlayer.src = song.src;
@@ -221,4 +273,10 @@ audioPlayer.addEventListener("ended", () => {
   nextBtn.click();
 });
 
+function playRandomSong() {
+  currentIndex = Math.floor(Math.random() * songs.length);
+  loadSong(currentIndex);
+}
+
 loadSong(currentIndex);
+playRandomSong();
